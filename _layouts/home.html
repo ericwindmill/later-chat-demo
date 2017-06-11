@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+
+    <main class="home-page-content" aria-label="Content">
+      <div id="wrapper-main" class="home-wrapper">
+        <div class='hero-content'>
+          <h1 class='index-title'> Drop your friends some notes. </h1>
+          <p> They'll find them when they show up. </p>
+          <button type="button" class="button hero-button">
+            <a href="#home-page-content-3">Test the app</a>
+          </button>
+        </div>
+        <img src="https://d3nj7353mvgauu.cloudfront.net/media/categories/iphone-77-plus-40-b1ac.png">
+        </div>
+      </div>
+    </main>
+
+
+    <section class="home-page-content-2" aria-label='Content'>
+        <div id="description-wrapper" class="home-wrapper">
+            <ul>
+              <li>Leave your friend a note wherever you are.</li>
+              <li>Next time they get to the location, they'll get the note.</li>
+              <li>Checkout the public notes to see what's going on at that place now.</li>
+            </ul>
+            <h1 class='index-section-header'> An app crafted for the social butterfly. </h1>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="home-page-content-4" aria-label='Content'>
+        <div id="cta-wrapper" class="home-wrapper">
+            <h1 class='index-section-header'> Call To Action </h1>
+            <p> This is where we'd usually make one last attempt at having someone download the app. But maybe we should just convince them to checkout our github:
+
+            <p>Checkout all the code. Download the project and run it on your machine. All the info can be found on github.{% include icon-github.html username=site.github_username %}</p>
+            </div>
+    </section>
+
+        <section id="home-page-content-3" class="home-page-content-3" aria-label='Content'>
+        <div id="emulator-wrapper" class="home-wrapper">
+            <div align="center"><iframe src="http://localhost:8080/iphone?url=mysite" width="540" height="900" frameborder="0"></iframe></div>
+            <h1 class='index-section-header'> Live test the app now.</h1>
+        </div>
+    </section>
+
+    {% include footer.html %}
+  </body>
+</html>

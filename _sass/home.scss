@@ -1,0 +1,108 @@
+
+/*************************
+      LAYOUT
+*************************/
+
+.home-wrapper {
+  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $spacing-unit;
+  padding-left: $spacing-unit;
+  @extend %clearfix;
+  display: flex;
+
+  @include media-query($on-laptop) {
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+    padding-right: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
+  }
+}
+
+/*************************
+      FIRST CONTENT BLOCK
+*************************/
+#wrapper-main {
+  max-width: -webkit-calc(850px - (#{$spacing-unit} * 2));
+  max-width:         calc(850px - (#{$spacing-unit} * 2));
+  display: flex;
+}
+
+.home-page-content {
+  padding: $spacing-unit 0;
+}
+
+.hero-content {
+  .index-title {
+    font-size: $base-font-size * 4;
+    line-height: 60px;
+  }
+
+  p {
+    color: $grey-color-dark;
+  }
+
+
+}
+
+
+/*************************
+      SECOND CONTENT BLOCK
+*************************/
+
+.home-page-content-2 {
+  padding: $spacing-unit 0;
+  background: #62bcfa;
+
+  .index-section-header {
+    font-size: $base-font-size * 3;
+    line-height: 60px;
+    padding: 0 30px;
+  }
+}
+
+.section-wrapper {
+  .index-section-header {
+    font-size: $base-font-size * 3;
+    line-height: 60px;
+  }
+}
+
+/*************************
+      THIRD CONTENT BLOCK
+*************************/
+
+
+
+.home-page-content-3 {
+  padding: $spacing-unit 0;
+  background: #fccdd3;
+
+  .index-section-header {
+    font-size: $base-font-size * 3;
+    line-height: 60px;
+    align-self: center;
+  }
+}
+
+/*************************
+      FOURTH CONTENT BLOCK
+*************************/
+
+.home-page-content-4 {
+  #cta-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  padding: $spacing-unit 0;
+  background: #bbc4ef;
+
+  .index-section-header {
+    font-size: $base-font-size * 3;
+    line-height: 60px;
+    align-self: flex-end;
+  }
+}
