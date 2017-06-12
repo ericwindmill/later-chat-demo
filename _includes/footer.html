@@ -2,26 +2,17 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+    <h2 class="footer-heading"> Made in SF | 	&copy; {{ site.title | escape }} 2017</h2>
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
-            {% endif %}
-            </li>
-            {% if site.email %}
+        <!--<ul class="contact-list">
             <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {% endif %}
-        </ul>
+        </ul>-->
       </div>
 
       <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
+        <!--<ul class="social-media-list">
           {% if site.github_username %}
           <li>
             {% include icon-github.html username=site.github_username %}
@@ -33,11 +24,11 @@
             {% include icon-twitter.html username=site.twitter_username %}
           </li>
           {% endif %}
-        </ul>
+        </ul>-->
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
+        <!--<p>{{ site.description | escape }}</p>-->
       </div>
     </div>
 

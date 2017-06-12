@@ -91,15 +91,11 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $brand-color;
+  color: $light-blue;
   text-decoration: none;
 
-  &:visited {
-    color: darken($brand-color, 15%);
-  }
-
   &:hover {
-    color: $text-color;
+    color: lighten($light-blue, 15%);
     text-decoration: underline;
   }
 
@@ -213,3 +209,19 @@ pre {
     padding-top: 5px;
   }
 }
+
+
+/**
+ * Buttons
+ */
+
+ .button {
+   border: none;
+   background-color: $purple;
+   padding: 15px;
+
+   a {
+     color: white;
+     font-size: $base-font-size;
+   }
+ }
