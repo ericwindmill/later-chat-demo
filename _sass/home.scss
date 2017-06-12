@@ -55,9 +55,16 @@
 .iphone-main {
   height: 500px;
   width: auto;
-  z-index: -1;
+  z-index: 3;
   top: 0%;
   left: 70%;
+}
+
+.iphone-gif-main {
+  height: 382px;
+  position: absolute;
+  bottom: 21.8%;
+  right: 6%;
 }
 
 #fa-down {
@@ -94,16 +101,19 @@
     max-width:         calc(800px - (#{$spacing-unit} * 2));
     justify-content: space-between;
     flex-direction: column;
+    position: relative;
   }
   
   ul {
-
+    align-self: flex-end;
+    justify-self: flex-end;
     padding: 50px 0;
   }
 
   li {
     list-style: none;
     padding-bottom: 25px;
+
     // font-size: 20px;
 
     h3 {
@@ -119,6 +129,24 @@
     text-align: right;
     padding-top: 40px;
   }
+}
+
+.description-content-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.iphone-gif-description {
+  height: 306px;
+  position: absolute;
+  bottom: 11.75%;
+  left: 5.425%;
+}
+
+.iphone-description {
+  height: 400px;
+  width: auto;
+  z-index: 3;
 }
 
 
