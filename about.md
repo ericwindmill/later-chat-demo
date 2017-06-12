@@ -15,12 +15,12 @@ permalink: /about/
   <div class="person">
     <h2>Nathan:</h2>
     <a href="https://github.com/npl22">Github</a> | 
-    <a href="mailto:">email</a>
+    <a href="mailto:nli22@jhu.edu">email</a>
   </div>
   <div class="person">
     <h2>Grey:</h2>
     <a href="https://github.com/rgkeith3">Github</a> | 
-    <a href="mailto:">email</a>
+    <a href="mailto:r.grey.keith@gmail.com">email</a>
   </div>
   <div class="person">
     <h2>Eric:</h2>
