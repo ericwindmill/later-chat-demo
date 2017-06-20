@@ -16,9 +16,9 @@
 title: Bulletin
 email: eric@ericwindmill.com
 description: > # this means to ignore newlines until "baseurl:"
-  
 
-github_username:  Bulliten Repo
+
+github_username:  Bulletin Repo
 
 # Build settings
 markdown: kramdown
