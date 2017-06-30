@@ -43,7 +43,7 @@
   .index-title {
     font-size: $base-font-size * 4;
     line-height: 60px;
-
+    background-color: #7BFECD;
   }
 
   p {
@@ -95,7 +95,7 @@
   color: $text-color;
   z-index: 2;
   display: flex;
-  
+
   #description-wrapper {
     max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
     max-width:         calc(800px - (#{$spacing-unit} * 2));
@@ -103,7 +103,7 @@
     flex-direction: column;
     position: relative;
   }
-  
+
   ul {
     align-self: flex-end;
     justify-self: flex-end;
@@ -188,7 +188,7 @@
   padding: $spacing-unit 0;
   background: $background-color;
   font-size: $base-font-size * 1.5;
-  
+
 
   .index-section-header {
     font-size: $base-font-size * 3;
